@@ -84,9 +84,6 @@ main {
   display: flex;
 
 }
-aside {
-
-}
 nav {
   height: 45px;
   background-color: #212121;
@@ -121,6 +118,4 @@ nav a:hover {
   color: #ff6c37;
 }
 
-.content {
-}
 </style>
