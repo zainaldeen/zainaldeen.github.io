@@ -81,8 +81,8 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/images/behind_profile.jpg" 
-                  alt="Professional portrait" 
+                src={`${import.meta.env.BASE_URL}images/behind_profile.jpg`}
+                alt="Professional portrait" 
                   className="w-full h-auto"
                 />
               </div>
