@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '../UI/Container';
-import { Gitlab as GitlabLogo, Mail, MapPin, Phone } from 'lucide-react';
+import { GithubIcon, Gitlab as GitlabLogo, Mail, MapPin, Phone } from 'lucide-react';
 import { resumeData } from '../../data/resumeData';
 
 const Footer: React.FC = () => {
@@ -46,6 +46,19 @@ const Footer: React.FC = () => {
                     className="hover:text-blue-400 transition-colors"
                   >
                     GitLab
+                  </a>
+                </li>
+              )}
+              {resumeData.contact.github && (
+                <li className="flex items-center text-slate-300">
+                  <GithubIcon size={18} className="mr-2 text-blue-400" />
+                  <a 
+                    href={resumeData.contact.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    Github
                   </a>
                 </li>
               )}

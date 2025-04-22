@@ -1,4 +1,4 @@
-import { Gitlab as GitlabLogo, Mail, MapPin, Phone, Send } from 'lucide-react';
+import { GithubIcon, Gitlab as GitlabLogo, Mail, MapPin, Phone, Send } from 'lucide-react';
 import React, { useEffect, useRef, useState } from 'react';
 import { resumeData } from '../../data/resumeData';
 import Button from '../UI/Button';
@@ -138,7 +138,26 @@ const ContactSection: React.FC = () => {
                           rel="noopener noreferrer"
                           className="text-slate-900 dark:text-white text-lg hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                         >
-                          View Profile
+                          View Gitlab Profile
+                        </a>
+                      </div>
+                    </div>
+                  )}
+
+                  {resumeData.contact.github && (
+                    <div className="flex items-start">
+                      <div className="flex-shrink-0 w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center">
+                        <GithubIcon className="w-5 h-5 text-blue-600 dark:text-blue-400" />
+                      </div>
+                      <div className="ml-4">
+                        <h4 className="text-sm font-medium text-slate-500 dark:text-slate-400">Github</h4>
+                        <a 
+                          href={resumeData.contact.github}
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-slate-900 dark:text-white text-lg hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                        >
+                          View Github Profile
                         </a>
                       </div>
                     </div>

@@ -129,6 +129,7 @@ export const resumeData: ResumeData = {
     phone: "+971 50 731 5854",
     email: "zainaldeenfayod@gmail.com",
     address: "Dubai, UAE",
-    gitlab: "https://gitlab.com/users/zainaldeen/projects"
+    gitlab: "https://gitlab.com/users/zainaldeen/projects",
+    github: "https://github.com/zainaldeen"
   }
 };
