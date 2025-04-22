@@ -65,7 +65,7 @@ const HeroSection: React.FC = () => {
                 variant="outline" 
                 size="lg"
                 icon={<Download size={18} />}
-                onClick={() => window.open('/resume.pdf', '_blank')}
+                onClick={() => window.open('/files/resume.pdf', '_blank')}
               >
                 Download CV
               </Button>
@@ -75,7 +75,7 @@ const HeroSection: React.FC = () => {
           <div className="order-1 lg:order-2 relative">
             <div className="rounded-2xl overflow-hidden shadow-xl relative mx-auto max-w-md animate-on-scroll opacity-0">
               <img 
-                src="/profile.jpg" 
+                src="/images/profile.jpg" 
                 alt="Zain Aldeen Fayod" 
                 className="w-full h-full object-cover"
               />

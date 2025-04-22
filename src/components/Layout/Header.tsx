@@ -76,7 +76,7 @@ const Header: React.FC = () => {
                 variant="primary" 
                 size="sm"
                 icon={<Download size={16} />}
-                onClick={() => window.open('/resume.pdf', '_blank')}
+                onClick={() => window.open('/files/resume.pdf', '_blank')}
               >
                 Resume
               </Button>
@@ -124,7 +124,7 @@ const Header: React.FC = () => {
                   variant="primary" 
                   className="w-full mt-2"
                   icon={<Download size={16} />}
-                  onClick={() => window.open('/resume.pdf', '_blank')}
+                  onClick={() => window.open('/files/resume.pdf', '_blank')}
                 >
                   Download Resume
                 </Button>
