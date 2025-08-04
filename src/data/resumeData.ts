@@ -130,6 +130,6 @@ export const resumeData: ResumeData = {
     email: "zainaldeenfayod@gmail.com",
     address: "Dubai, UAE",
     gitlab: "https://gitlab.com/users/zainaldeen/projects",
-    github: "https://github.com/zainaldeen"
+    github: "https://github.com/zain-supy-io"
   }
 };
